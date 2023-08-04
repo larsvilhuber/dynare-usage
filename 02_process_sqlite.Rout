@@ -40,9 +40,25 @@ Loading required package: devtools
 Loading required package: usethis
 Loading required package: rprojroot
 Loading required package: tictoc
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+trying URL 'https://packagemanager.rstudio.com/cran/__linux__/focal/2022-06-22/src/contrib/tictoc_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 137762 bytes (134 KB)
+==================================================
+downloaded 134 KB
+
+* installing *binary* package ‘tictoc’ ...
+* DONE (tictoc)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYZj1yB/downloaded_packages’
+Loading required package: tictoc
 Loading required package: DBI
 Loading required package: RSQLite
 Loading required package: tidyr
+Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘tictoc’
 > source(file.path(programs,"libraries.R"), echo=FALSE)
 > 
 > # exclusions to not consider
@@ -166,4 +182,4 @@ Loading required package: tidyr
 > 
 > proc.time()
    user  system elapsed 
-  6.778   1.618   6.755 
+  7.920   2.869   9.029 

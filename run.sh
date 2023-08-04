@@ -7,3 +7,7 @@ R CMD BATCH ${arg}
 done
 
 tail *.Rout
+
+# now do the Rmd file
+
+Rscript -e "rmarkdown::render('README.Rmd')"

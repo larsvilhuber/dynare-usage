@@ -1,0 +1,47 @@
+---
+title: "Dynare usage in major Econ journals"
+author: "Lars Vilhuber"
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
+source(file.path(programs,"config.R"), echo=FALSE)
+source(file.path(programs,"libraries.R"), echo=FALSE)
+```
+
+# Download Sebastian Kranz' data
+
+Not shown here.
+
+```{r download, include=TRUE}
+programs
+source(file.path(programs,"01_download_sqlite.R"), echo=FALSE)
+```
+
+Data citation:
+
+> Sebastian Kranz. 2023. "Economic Articles with Data". https://ejd.econ.mathematik.uni-ulm.de/, accessed on `r Sys.Date()`
+
+# Process data
+
+
+```{r process}
+source(file.path(programs,"02_process_sqlite.R"), echo=TRUE)
+```
+
+# Software citations
+
+
+```{r citations}
+source(file.path(programs,"03_citations.R"), echo=TRUE)
+```
+
+
+
+
