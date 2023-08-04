@@ -1,5 +1,4 @@
-# Download ONET and BLS OES data
-# Data is about 50MB - depending on your connection, this might take a while.
+# Process downloaded data
 
 source(file.path(rprojroot::find_root(rprojroot::has_file("pathconfig.R")),"pathconfig.R"),echo=FALSE)
 source(file.path(programs,"config.R"), echo=FALSE)
@@ -58,3 +57,7 @@ analysis_dynare %>%
 	summarize(n=n(),
                          dynare_n=sum(present_dynare)) %>%
        mutate(dynare_pct = 100 * dynare_n/n)
+
+# first and last year
+max(articles$year)
+min(articles$year)

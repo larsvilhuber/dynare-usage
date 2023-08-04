@@ -1,0 +1,217 @@
+
+R version 4.2.0 (2022-04-22) -- "Vigorous Calisthenics"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> # because this is about software citations!
+> 
+> citation()
+
+To cite R in publications use:
+
+  R Core Team (2022). R: A language and environment for statistical
+  computing. R Foundation for Statistical Computing, Vienna, Austria.
+  URL https://www.R-project.org/.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {R: A Language and Environment for Statistical Computing},
+    author = {{R Core Team}},
+    organization = {R Foundation for Statistical Computing},
+    address = {Vienna, Austria},
+    year = {2022},
+    url = {https://www.R-project.org/},
+  }
+
+We have invested a lot of time and effort in creating R, please cite it
+when using it for data analysis. See also ‘citation("pkgname")’ for
+citing R packages.
+
+> 
+> lapply(global.libraries,citation)
+[[1]]
+
+To cite package ‘dplyr’ in publications use:
+
+  Wickham H, François R, Henry L, Müller K (2022). _dplyr: A Grammar of
+  Data Manipulation_. https://dplyr.tidyverse.org,
+  https://github.com/tidyverse/dplyr.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {dplyr: A Grammar of Data Manipulation},
+    author = {Hadley Wickham and Romain François and Lionel Henry and Kirill Müller},
+    year = {2022},
+    note = {https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr},
+  }
+
+
+
+
+[[2]]
+
+To cite package ‘stringr’ in publications use:
+
+  Wickham H (2019). _stringr: Simple, Consistent Wrappers for Common
+  String Operations_. http://stringr.tidyverse.org,
+  https://github.com/tidyverse/stringr.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {stringr: Simple, Consistent Wrappers for Common String Operations},
+    author = {Hadley Wickham},
+    year = {2019},
+    note = {http://stringr.tidyverse.org, https://github.com/tidyverse/stringr},
+  }
+
+
+
+
+[[3]]
+
+To cite package ‘devtools’ in publications use:
+
+  Wickham H, Hester J, Chang W, Bryan J (2021). _devtools: Tools to
+  Make Developing R Packages Easier_. https://devtools.r-lib.org/,
+  https://github.com/r-lib/devtools.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {devtools: Tools to Make Developing R Packages Easier},
+    author = {Hadley Wickham and Jim Hester and Winston Chang and Jennifer Bryan},
+    year = {2021},
+    note = {https://devtools.r-lib.org/, https://github.com/r-lib/devtools},
+  }
+
+
+
+
+[[4]]
+
+To cite package ‘rprojroot’ in publications use:
+
+  Müller K (2022). _rprojroot: Finding Files in Project
+  Subdirectories_. https://rprojroot.r-lib.org/,
+  https://github.com/r-lib/rprojroot.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {rprojroot: Finding Files in Project Subdirectories},
+    author = {Kirill Müller},
+    year = {2022},
+    note = {https://rprojroot.r-lib.org/, https://github.com/r-lib/rprojroot},
+  }
+
+
+
+
+[[5]]
+
+To cite package ‘tictoc’ in publications use:
+
+  Izrailev S (2021). _tictoc: Functions for Timing R Scripts, as Well
+  as Implementations of Stack and List Structures_. R package version
+  1.0.1, <https://github.com/collectivemedia/tictoc>.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {tictoc: Functions for Timing R Scripts, as Well as Implementations of
+Stack and List Structures},
+    author = {Sergei Izrailev},
+    year = {2021},
+    note = {R package version 1.0.1},
+    url = {https://github.com/collectivemedia/tictoc},
+  }
+
+ATTENTION: This citation information has been auto-generated from the
+package DESCRIPTION file and may need manual editing, see
+‘help("citation")’.
+
+
+
+
+[[6]]
+
+To cite package ‘DBI’ in publications use:
+
+  R Special Interest Group on Databases (R-SIG-DB), Wickham H, Müller K
+  (2022). _DBI: R Database Interface_. https://dbi.r-dbi.org,
+  https://github.com/r-dbi/DBI.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {DBI: R Database Interface},
+    author = {{R Special Interest Group on Databases (R-SIG-DB)} and Hadley Wickham and Kirill Müller},
+    year = {2022},
+    note = {https://dbi.r-dbi.org, https://github.com/r-dbi/DBI},
+  }
+
+
+
+
+[[7]]
+
+To cite package ‘RSQLite’ in publications use:
+
+  Müller K, Wickham H, James DA, Falcon S (2022). _RSQLite: SQLite
+  Interface for R_. https://rsqlite.r-dbi.org,
+  https://github.com/r-dbi/RSQLite.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {RSQLite: SQLite Interface for R},
+    author = {Kirill Müller and Hadley Wickham and David A. James and Seth Falcon},
+    year = {2022},
+    note = {https://rsqlite.r-dbi.org, https://github.com/r-dbi/RSQLite},
+  }
+
+
+
+
+[[8]]
+
+To cite package ‘tidyr’ in publications use:
+
+  Wickham H, Girlich M (2022). _tidyr: Tidy Messy Data_.
+  https://tidyr.tidyverse.org, https://github.com/tidyverse/tidyr.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {tidyr: Tidy Messy Data},
+    author = {Hadley Wickham and Maximilian Girlich},
+    year = {2022},
+    note = {https://tidyr.tidyverse.org, https://github.com/tidyverse/tidyr},
+  }
+
+
+
+
+> 
+> proc.time()
+   user  system elapsed 
+  3.070   1.390   2.817 
